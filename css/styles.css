@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Encode Sans';
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#gUm {
+    color: #C3170C;
+}
+
+#oGlobo {
+    color: #1E4B9B;
+}
+
+#valor{
+    color: #006766;
+}
+
+#ge {
+    color: #07AA47;
+}
+#cartola{
+    color: #E3662B;
+}
+
+#globoplay{
+    color: #FB0735;
+}
+
+#dropz {
+    color: #FF75BB;
+}
+
+#gshow{
+    color: #EC7D00;
+}
+
+#quem{
+    color: #323333;
+}
+
+#receitas {
+    color: #A81D83;
+}
+
+#landingPage {
+    /*background-color: aqua;*/
+    width: 1250px;
+}
+
+#borderDoubleBar{
+    background: #EBEDEF;
+    width: 1250px;
+    height: 1px;
+}
+
+#doubleBar{
+    /*background-color: aliceblue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logoBar{
+    /*background-color: blueviolet;*/
+    height: 80px;
+}
+
+#logoIMG {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+#logoIMG img {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+#menuBar{
+    /*background-color: aquamarine;*/
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 19px;
+    width: 1250px;
+}
+
+#news{
+    /*background-color: yellow;*/
+    display: flex;
+}
+
+#leftColumn{
+    /*background-color: cadetblue;*/
+    height: 845px;
+    width: 624px;
+    margin-top: 34px;
+}
+
+#leftMainNews{
+    /*background-color: chartreuse;*/
+    height: 312px;
+}
+
+#leftMain{
+    color: #C4160C;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 67px;
+    margin-bottom: 29px;
+}
+
+#leftMinor{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 25px;
+}
+
+#hBar{
+    background: #EBEDEF; 
+    width: 624px;
+    height: 1px;
+}
+
+#vBar{
+    background: #EBEDEF; 
+    height: 845px;
+    width: 1px;
+    margin-top: 35px;
+    margin-left: 36px;
+}
+
+#vBarInternal{
+    background: #EBEDEF; 
+    height: 845px;
+    width: 1px;
+}
+
+#leftMiddle{
+    /*background-color: burlywood;*/
+    width: 624px;
+    height: 319px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftMiddleNews {
+    /*background-color: cornflowerblue;*/
+    width: 193px;
+}
+
+.leftMiddleNews img{
+    margin-top: 25px;
+}
+
+img{
+    border-radius: 12px;
+    margin-bottom: 11px;
+}
+
+.redTitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+    color: #C4170C;
+}
+
+.leftBoldTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+    
+}
+
+.minorDescription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2F3134;
+    margin-top: 4.5px;
+}
+
+#leftBottom{
+    /*background-color: cyan;*/
+    width: 624px;
+    height:214px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBottomNews{
+    /*background-color: orange;*/
+    width: 193px;
+    height: 214px;
+}
+
+.redTitleBottom {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 25px;
+    margin-bottom: 6px;
+    color: #C4170C;
+}
+
+.leftBoldTitleBottom{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+    
+}
+
+#rightColumn{
+    /*background-color: chocolate;*/
+    height: 845px;
+    width: 626px;
+    margin-top: 35px;
+    display: flex;
+}
+
+#rightColumnInternal{
+    /*background-color: aliceblue;*/
+    height: 845px;
+    width: 310px;
+    
+}
+
+.newsInternal{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.greenTitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+    color: #16AE54;
+}
+
+#espiao{
+    /*background-color: #16AE54;*/
+    height: 295px;
+    margin-bottom: 50px;
+}
+#espiao p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2F3134;
+    margin-top: 4px;
+}
+#greve{
+    /*background-color: cyan;*/
+    height: 248px;
+}
+.internalBoldClassificacao{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+    height: 84px;
+    margin-bottom: 4px;
+}
+
+.internalBoldGreve{
+    font-weight: 700;
+    font-size: 20px;
+    height: 84px;
+    line-height: 25px;
+    color: #2F3134;
+}
+#campeonato{
+    /*background-color: cornflowerblue;*/
+    margin-top: 22px;
+}
+.internalBoldCampeonato {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+}
+.newsExternal {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 37px;
+}
+.orangeTitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color:#EC8006;
+
+    margin-bottom: 6px;
+}
+
+.externalBoldFerias{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+    margin-bottom:60px
+}
+
+.externalBoldVerdades{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+}
+
+#verdadesP{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2F3134;
+    margin-top: 11px;
+    margin-bottom: 50px;
+}
+
+.externalBoldImperador{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2F3134;
+}
+
+#imperadorP {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #2F3134;
+    margin-top: 8px;
+}
